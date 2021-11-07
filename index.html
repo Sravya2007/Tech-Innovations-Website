@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Technological Innovations</title>
+  <link rel = "stylesheet"
+        type = "text/css"
+        href = "styles.css" />
+  <link rel="shortcut icon" href="icon.png"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!--Google Fonts-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap&family=Lobster&display=swap&family=Abril+Fatface&display=swap&family=Abril+Fatface&display=swap&family=Zen+Antique&display=swap7family=Zen+Antique&display=swap');
+  </style>
+</head>
+
+<body>
+<!--Fixed Top Navigation Bar-->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="font-family: 'Abril Fatface', cursive;">Technological Innovations</a>
+      <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarCollapse" 
+      aria-controls="navbarCollapse" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          
+          <!--Dropdown Menu-->
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#Health">Health & Fitness</a></li>
+                <li><a class="dropdown-item" href="#Automobiles">Automobiles</a></li>
+                <li><a class="dropdown-item" href="#AI">Artificial Intelligence</a></li>
+                <li><a class="dropdown-item" href="#ARVR">Augmented & Virtual Reality</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#FAQ">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+
+  <!--Dividing space between 2 sections-->
+  <div class="divider"></div>
+  
+  <!--Home Screen-->
+  <div class="card bg-dark text-white overflow-hidden"
+    style = "width: 100%;
+        position: relative;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        font-family: 'Abril Fatface', cursive;">
+    <img class="card-img-top" src="Tech.jpg">
+    <div class="card-img-overlay d-flex align-items-center text-center row">
+        <br></br>
+      <h1 class="card-title">Best Technological Innovations</h1>
+      <h5 class="card-text" style="font-family: 'Montserrat', sans-serif;">Technology is fast-paced. Technological innovations improve the quality of life by helping with small daily chores or even by replacing human effort in huge tasks. Here is a handpicked compilation of prominent technological innovations in various fields.</h5>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!--Hero-->
+  <div class="bg-dark text-secondary px-4 py-5 text-center" id="Health">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Health and Fitness</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Technology has had a major impact on the health and fitness of people. By keeping track of their daily activities and exercise, people today have become more concious of their health.</p>
+        <p class="fs-5 mb-4">Here are some remarkable inventions related to health and fitness:</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!--Carousel with background image and caption-->
+  <div id = "Health_Carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#Health_Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#Health_Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#Health_Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Nike_Shoes.jpg" class="d-block" style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">Record-Breaking Running Shoes</h3>
+                <h5 class="carousel_font">The Nike Air Zoom Alphafly Next shoes have air-filled pods that help return 90% of the energy an athlete exerts. This technology helped Eliud Kipchoge become the first human to run a sub-two-hour marathon.</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Health_App.jpg" class="d-block"  style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">Personalised Health Apps</h3>
+                <h5 class="carousel_font">From requesting physician appointments, checking in, uploading a patient’s medical history to getting test results via a mobile app – health organizations can create useful digital tools that are perfect for the modern-day patient.</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Telemedicine.jpg" class="d-block"  style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">Telemedicine</h3>
+                <h5 class="carousel_font">Telemedicine became a lifeline between health care practitioners and their patients during the pandemic. Because of its success, it may become one of the main ways practitioners see their patients going forward. This technology not only proves useful when a patient is infectious or too sick to come for an in-person appointment.</h5>
+              </div>
+          </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#Health_Carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#Health_Carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center" id="Automobiles">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Automobiles</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">These days, the electronic technology in an automobile is almost as important as what's under the hood. These systems are key to everything from safety and security to connectivity and communication.</p>
+        <p class="fs-5 mb-4">Here is a list of some path-breaking technological inventions related to automobiles:</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div id = "Vehicle_Carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#Vehicle_Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#Vehicle_Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#Vehicle_Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Stolen_Vehicle.png" class="d-block" style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">Stolen Vehicle Tracking Software</h3>
+                <h5 class="carousel_font">The technology is part of the assistance and security systems such as Subaru Starlink, Kia UVO, Hyundai Blue Link, and GM OnStar. In addition to providing diagnostics, concierge, and post-crash notification for summoning rescue services, they can pinpoint a vehicle’s exact location, which helps in recovery of a vehicle in case it's stolen.</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Fast_Charge.jpg" class="d-block"  style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">Fast Charging</h3>
+                <h5 class="carousel_font">Electric Vehicles or EVs have become increasingly popular across the world. Available manufacturers are planning to produce high-powered electric cars that can be easily comparable the best fuel-powered vehicles. One of the standout features of electric vehicles is the ability to be powered by an in-built battery. The batteries of EVs get charged from 0 to 100 percent in 4-6 hours. With the technology of fast charging, the charger is capable of taking the battery from 0 to 80 percent in a matter of 30 minutes.</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="autobreak.jpg" class="d-block"  style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">Automatic Emergency Braking</h3>
+                <h5 class="carousel_font">When a car senses that a collision is imminent, Automatic Emergency Braking (AEB) activates your car’s brakes, potentially avoiding or minimizing an accident. AEB can react faster than a person and can start working before you hit the brakes. If you are braking and it senses you need to stop sooner, AEB can also brake harder than the pressure you're applying.</h5>
+              </div>
+          </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#Vehicle_Carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#Vehicle_Carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center" id="AI">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Artificial Intelligence</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Artificial intelligence (AI) makes it possible for machines to learn from experience, adjust to new inputs and perform human-like tasks. Using AI, computers can be trained to accomplish specific tasks by processing large amounts of data and recognizing patterns in the data.</p>
+        <p class="fs-5 mb-4">Here are some notable applications of Artificial Intelligence:</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div id = "AI_Carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#AI_Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#AI_Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#AI_Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="e-commerce.jpg" class="d-block" style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">AI in E-Commerce</h3>
+                <h5 class="carousel_font">Virtual shopping assistants and chatbots help improve the user experience while shopping online. Natural Language Processing is used to make the conversation sound as human and personal as possible. Moreover, these assistants can have real-time engagement with customers.</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="robotics.jpg" class="d-block"  style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class = "text-primary carousel_font">AI in Robotics</h3>
+                <h5 class = "text-primary carousel_font">Artificial Intelligence or AI gives robots a computer vision to navigate, sense and calculate their reaction accordingly. Robots learn to perform their tasks from humans through machine learning.</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="social_media.jpg" class="d-block"  style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class = "text-black carousel_font">AI in Social Media</h3>
+                <h5 class = "text-black carousel_font">On Instagram, AI considers your likes and the accounts you follow to determine what posts you are shown. Using AI, Facebook understand conversations better. It translates posts from different languages automatically. AI is used by Twitter for fraud detection, removing propaganda, and hateful content.</h5>
+              </div>
+          </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#AI_Carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#AI_Carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="divider"></div>
+  
+  <div class="bg-dark text-secondary px-4 py-5 text-center" id="ARVR">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">Augmented and Virtual Reality</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Augmented and virtual reality — digital tools that either superimpose images on the real world (AR) or bring users into an artificial digital experience (VR) — have captured the imagination of the consumer world in the form of Pokémon games, Snapchat lenses, gaming headsets, and more. AR and VR have the ability to provide data in real time, engage users, and simulate real-life experiences in extreme detail.</p>
+        <p class="fs-5 mb-4">Here are a few potential uses of AR and VR:</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div id = "ARVR_Carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#ARVR_Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#ARVR_Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#ARVR_Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="ar_edu.jpeg" class="d-block" style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class = "text-info carousel_font">AR & VR in Education</h3>
+                <h5 class = "text-info carousel_font">Augmented and virtual reality have the potential to bring more students into the classroom and create more engaging and exciting classroom experiences. Using VR, students in health care facilities or rural areas can participate in the classroom virtually in a much more full and rich way than in traditional online classes. Using AR and VR, teachers can create an immersive learning environment, allowing students to explore the ocean floor or unfamiliar parts of the globe.</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="ar_tourism.jpeg" class="d-block"  style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">AR & VR in Tourism</h3>
+                <h5 class="carousel_font">The tourism industry is taking the first steps to enabling us to go on guided virtual tours of hotels, restaurants and tourist landmarks. Thomas Cook launched their 'Try Before You Fly' VR experience in 2015, where potential holidaymakers visit stores in various countries to experience the holiday in VR before booking it.</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="vr_news.jpeg" class="d-block"  style = "width:100%;position:relative;overflow:hidden;height:1000px;">
+            <div class="carousel-caption">
+                <h3 class="carousel_font">AR & VR in News and Journalism</h3>
+                <h5 class="carousel_font">News stories and documentaries are now available in VR. The New York Times, in its NYT VR app, has introduced a way to experience stories rather than just listen to them, as if one were standing opposite the journalist where the story is happening.</h5>
+              </div>
+          </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#ARVR_Carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#ARVR_Carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="bg-dark text-secondary px-4 py-5 text-center" id="FAQ">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">FAQ</h1>
+    </div>
+  </div>
+
+  <!--FAQ Accordion with Q&A-->
+  <div class="accordion" id="FAQAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <p style="font-family: 'Zen Antique', serif;">What is this website about?</p>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#FAQAccordion">
+        <div class="accordion-body">
+          <p style="font-family: 'Open Sans Condensed', sans-serif;">"Best Technological Innovations" is an attempt to provide information on the best modern innovations in several fields.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <p  style="font-family: 'Zen Antique', serif;">What tools have you used to build this website?</p>
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#FAQAccordion">
+        <div class="accordion-body">
+          <p style="font-family: 'Open Sans Condensed', sans-serif;">HTML, CSS and Bootstrap 5.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <p  style="font-family: 'Zen Antique', serif;">What was your inspiration for making this website?</p>
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#FAQAccordion">
+        <div class="accordion-body">
+          <p style="font-family: 'Open Sans Condensed', sans-serif;">Originally meant as an entry for a coding competition, the number of innovations in various fields and the popularity they gained tempted me to make this website. :)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!--Credits ;)-->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted" style="font-family: 'Lobster', cursive;">Made with ❤ by <a href="https://github.com/Sravya2007" style="text-decoration: none;color: #6C757D;">Sravya2007</a></span>
+    </div>
+  </footer>
+</body>
+</html>
