@@ -9,3 +9,7 @@
 .carousel_font {
   font-family: 'Abril Fatface', cursive;
 }
+
+body {
+  user-select: none;
+}
